@@ -1,0 +1,23 @@
+<script src="./measure.js"> </script>
+<p>
+	See the page source for usage.
+	See the console for test results.
+</p>
+<script>
+	var u = measure("  2.4rem  ");
+	console.log(u());
+	console.log(u(1.8));
+	console.log(u());
+
+	var u2 = measure("  2.4%  ");
+	console.log(u2());
+	console.log(u2(1.8));
+	console.log(u2());
+	console.log(u2.value());
+	console.log(u2.unit());
+	console.log(u2());
+	console.log(u2.unit("px")());
+	console.log(u2());
+	console.log(u2(3));
+	console.log(u2(.3));
+</script>
