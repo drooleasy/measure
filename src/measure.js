@@ -1,5 +1,5 @@
 function measure(str){
-	var match = str.match(/^\s*(\d*\.?\d+)(\S*)\s*$/);
+	var match = str.match(/^\s*(\d*\.?\d*)(\S*)\s*$/);
 	var _val = match && parseFloat(match[1]) || 0;
 	var _unit = match && match[2] || "";
 	var f = function measure_instance(){
@@ -32,3 +32,5 @@ function measure(str){
 	}
 	return f;
 }
+
+module && (module.exports = measure)

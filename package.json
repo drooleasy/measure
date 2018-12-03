@@ -1,0 +1,27 @@
+{
+  "name": "measure",
+  "version": "1.0.0",
+  "description": "utility for manipulating measure with unit (ie with css)",
+  "main": "measure.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drooleasy/measure.git"
+  },
+  "keywords": [
+    "js",
+    "css",
+    "unit"
+  ],
+  "author": "Julien Droulez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drooleasy/measure/issues"
+  },
+  "homepage": "https://github.com/drooleasy/measure#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
