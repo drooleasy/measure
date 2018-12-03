@@ -33,4 +33,5 @@ function measure(str){
 	return f;
 }
 
-module && (module.exports = measure)
+var module = module || {};
+module.exports = measure;
